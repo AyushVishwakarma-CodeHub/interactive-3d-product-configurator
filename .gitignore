@@ -33,16 +33,11 @@ Thumbs.db
 *.sw?
 
 # Confidential Assessment & Reference Documents
-# (Do not expose confidential assessment documents publicly)
 Instruction & reference link (3).pdf
 *.pdf
 
-# Company-Provided 3D Models
-# (Do not upload company-provided GLB models unless public distribution is explicitly permitted)
+# Keep original assessment zip folder private
 Tent_glb (3)/
-*.glb
-public/models/*.glb
-!public/models/.gitkeep
 
 # Temporary / Scratch scripts and captures
 scratch/
