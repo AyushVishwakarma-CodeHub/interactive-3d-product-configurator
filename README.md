@@ -1,6 +1,9 @@
 # Interactive 3D Canopy Tent Configurator
 **Technical Assessment for Vertical 3D Tech**  
-*Benchmark Reference:* [MVP Visuals 10x10 Custom Canopy Tent](https://mvpvisuals.com/products/10x10-custom-canopy-tent)
+🚀 **Live Vercel Application:** [https://interactive-3d-product-configurator.vercel.app](https://interactive-3d-product-configurator.vercel.app)  
+🖼️ **Live Iframe Host Demo:** [https://interactive-3d-product-configurator.vercel.app/iframe-demo.html](https://interactive-3d-product-configurator.vercel.app/iframe-demo.html)  
+📦 **GitHub Repository:** [https://github.com/AyushVishwakarma-CodeHub/interactive-3d-product-configurator](https://github.com/AyushVishwakarma-CodeHub/interactive-3d-product-configurator)  
+🎯 **Benchmark Reference:** [MVP Visuals 10x10 Custom Canopy Tent](https://mvpvisuals.com/products/10x10-custom-canopy-tent)  
 
 ---
 
@@ -206,14 +209,15 @@ Generates high-resolution multi-section production specification PDFs:
 ## 🖼️ 7. Iframe Embedding Test Harness
 
 To test the configurator embedded within an external host website:
-1. Ensure the development server is running on `http://localhost:3000`.
-2. Open [http://localhost:3000/iframe-demo.html](http://localhost:3000/iframe-demo.html).
-3. The demo page demonstrates:
-   - Configurator running inside a sandboxed `<iframe>`.
-   - Real-time telemetry log displaying incoming `CONFIGURATOR_READY` and `CONFIGURATOR_UPDATED` events.
-   - Synchronized price and status tracking on the parent website.
-   - Host action buttons (`Set Size: 8x8`, `Finish: Stealth Black`, `Color: Royal Blue`) dispatching commands into the iframe.
-   - Shopify cart listener capturing the line-item payload upon checkout.
+- **Live Deployed Iframe Demo:** [https://interactive-3d-product-configurator.vercel.app/iframe-demo.html](https://interactive-3d-product-configurator.vercel.app/iframe-demo.html)
+- **Local Development Iframe Demo:** [http://localhost:3000/iframe-demo.html](http://localhost:3000/iframe-demo.html)
+
+The demo page demonstrates:
+- Configurator running inside a sandboxed `<iframe>`.
+- Real-time telemetry log displaying incoming `CONFIGURATOR_READY` and `CONFIGURATOR_UPDATED` events.
+- Synchronized price and status tracking on the parent website.
+- Host action buttons (`Set Size: 8x8`, `Finish: Stealth Black`, `Color: Royal Blue`) dispatching commands into the iframe.
+- Shopify cart listener capturing the line-item payload upon checkout.
 
 ---
 
@@ -232,7 +236,13 @@ To test the configurator embedded within an external host website:
 
 ## 🚢 9. Deployment Instructions
 
-### Option A: Vercel / Netlify (Recommended)
+### Live Vercel Deployment
+- **Interactive 3D Configurator:** [https://interactive-3d-product-configurator.vercel.app](https://interactive-3d-product-configurator.vercel.app)
+- **Host Iframe Test Harness:** [https://interactive-3d-product-configurator.vercel.app/iframe-demo.html](https://interactive-3d-product-configurator.vercel.app/iframe-demo.html)
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+
+### Option A: Vercel / Netlify
 1. Push this repository to GitHub or GitLab.
 2. Import the project in Vercel or Netlify.
 3. Configure build settings:
