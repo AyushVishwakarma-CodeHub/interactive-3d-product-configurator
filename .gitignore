@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Production Build Outputs
+dist/
+dist-ssr/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Confidential Assessment & Reference Documents
+# (Do not expose confidential assessment documents publicly)
+Instruction & reference link (3).pdf
+*.pdf
+
+# Company-Provided 3D Models
+# (Do not upload company-provided GLB models unless public distribution is explicitly permitted)
+Tent_glb (3)/
+*.glb
+public/models/*.glb
+!public/models/.gitkeep
+
+# Temporary / Scratch scripts and captures
+scratch/
+test-results/
